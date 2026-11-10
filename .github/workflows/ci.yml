@@ -35,5 +35,5 @@ jobs:
           distribution: temurin
           java-version: '17'
           cache: maven
-      - run: ./mvnw --batch-mode --no-transfer-progress verify
+      - run: bash ./mvnw --batch-mode --no-transfer-progress verify
         working-directory: backend
